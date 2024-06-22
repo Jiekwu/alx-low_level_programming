@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("Prigramming is like building a multilingual puzzle");
+	puts("Prigramming is like building a multilingual puzzle");
 	return (0);
 }
