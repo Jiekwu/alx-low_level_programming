@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_sign - prints sign
+* print_sign - prints sign of a number
 * @n: function parameter
-* Retuetn: 1, 0 or -1
+* Return: 1, 0 or -1
 */
 int print_sign(int n)
 {
