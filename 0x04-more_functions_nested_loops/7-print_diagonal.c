@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_diagonal - Print a duagonal
+ * @n: A parameter
+ * Return: void
+ */
 void print_diagonal(int n)
 {
 	if (n <= 0)
