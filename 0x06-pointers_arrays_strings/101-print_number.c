@@ -1,35 +1,34 @@
 #include <stdio.h>
-#include "main.h"
-
-int _putchar(char c);
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * print_number - Prints an integer.
- * @n: The integer to be printed.
- * Return: Void
+ * main - entry point
+ * Description: my keygen.
+ *
+ * Return: 0.
  */
-void print_number(int n)
+
+int main(void)
 {
-	unsigned int num;
+	int i = 0, j = 0, k = 0;
+	time_t t;
 
-	if (n < 0)
+	srand((unsigned int) time(&t));
+
+	while (j < 2772)
 	{
-	_putchar('-');
-	num = -n;
-	}
-	else
-	{
-	num = n;
+		i = rand() % 128;
+		if ((j + i) > 2772)
+			break;
+
+		j += i;
+		k++;
+
+		printf("%c", i);
 	}
 
-	if (num / 10 != 0)
-	{
-	print_number(num / 10);
-	}
-	_putchar((num % 10) + '0');
-}
+	printf("%c\n", (2772 - j));
 
-int _putchar(char c)
-{
-	return (c);
+	return (0);
 }
