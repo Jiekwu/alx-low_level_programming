@@ -5,7 +5,7 @@
  * @head: A pointer
  * @n: The integer to be added
  * Return: if function fails - NULL;
- * 	otherwise - pointer to the new element
+ * Otherwise - pointer to the new element
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
