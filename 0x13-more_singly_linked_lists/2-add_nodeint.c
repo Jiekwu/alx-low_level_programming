@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * add_nodeint - Adds a new node to the beginning
@@ -19,7 +19,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	new->n = n;
 	new->next = *head;
 
-	head = new;
+	*head = new;
 
 	return (new);
 }

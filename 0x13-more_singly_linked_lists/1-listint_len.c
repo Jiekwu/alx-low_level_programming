@@ -1,8 +1,8 @@
-#include "lists.h"
+#include "list.h"
 
 /**
  * listint_len - Number of elements
- * @h: A pointer 
+ * @h: A pointer
  * Return: The number of elements in the list
  */
 
