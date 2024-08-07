@@ -2,9 +2,9 @@
 
 /**
  * delete_nodeint_at_index - Deletes a node of a list at a particular index
- * @head: Oointer to the beginning of the list
+ * @head: Pointer to the beginning of the list
  * @index: Index of the node to be freed
- * Return: i if successful and -1 if not
+ * Return: 1 if successful and -1 if not
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
