@@ -7,7 +7,7 @@
  * @n: The number of strings passed to the function
  * @...: A variable number of strings to be printed
  *
- * Description: If separator is NULL, it is not printed
+ * @Description: If separator is NULL, it is not printed
  * if one of the strings is NULL, all is printed instead
  */
 
